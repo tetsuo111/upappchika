@@ -44,11 +44,11 @@ group :development, :test do
 end
 
 
-group :production, :staging do
-  gem 'rails_12factor'
-  gem 'pg'
-end
+# group :production, :staging do
+#   gem 'rails_12factor'
+# end
 
+gem 'mysql2'
 
 
 
