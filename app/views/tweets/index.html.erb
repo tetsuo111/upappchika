@@ -1,11 +1,18 @@
-<div class="contents row">
-  <%= form_tag('/tweets', method: :post) do %>
-    <h3>
-      投稿する
-    </h3>
-    <input placeholder="Nickname" type="text" name="name">
-    <input placeholder="Image Url" type="text" name="image">
-    <textarea cols="30" name="text" placeholder="text" rows="10"></textarea>
-    <input type="submit" value="SENT">
-  <% end %>
+
+
+<div  class= "input-group" > 
+  <span  class= "input-group-addon"  id= "basic-addon1" > @ </span> 
+  <input  type= "text"  class= "form-control"  placeholder= "Username"  aria-describedby= "basic-addon1" > 
+</div>
+
+<div  クラス= "入力グループ" > 
+  <入力 タイプ= "テキスト"  クラス= "フォームコントロール"  プレースホルダー= "は、受信者のusername"  aria-describedby= "basic-addon2" > 
+  <span  class= "input-group-addon"  id= "basic-addon2" > @example.com </span> 
+</div>
+
+<div  class= "input-group" > 
+  <span  class= "input-group-addon" > $ </span> 
+  <input  type= "text"  class= "form-control"  aria-label= "Amount （最も近いドルに） " > 
+  <スパン クラス= "入力グループアドオン" > 0.00 
+  </span>
 </div>
