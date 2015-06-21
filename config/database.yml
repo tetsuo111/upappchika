@@ -55,5 +55,4 @@ production:
   password:
   socket: /tmp/mysql.sock
   database: upappchika_production
-  username: upappchika
-  password: <%= ENV['UPAPPCHIKA_DATABASE_PASSWORD'] %>
+
