@@ -48,7 +48,12 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  <<: *default
+  adapter: pg
+  encoding: utf8
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
   database: upappchika_production
   username: upappchika
   password: <%= ENV['UPAPPCHIKA_DATABASE_PASSWORD'] %>
