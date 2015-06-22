@@ -50,7 +50,7 @@ end
 
 gem 'mysql2'
 
-
+gem 'devise'
 
 
 
