@@ -49,7 +49,7 @@ group :production, :staging do
 end
 
 gem 'mysql2'
-
+gem 'pry-rails'
 gem 'devise'
 
 
