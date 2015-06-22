@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'tests' => 'tests#index'
+  get 'tweets' => 'tweets#index'
 end
